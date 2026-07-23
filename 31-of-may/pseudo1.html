@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>Document</title>
+</head>
+<style>
+    .parent{
+        position: relative;
+        display: inline-block;
+    }
+    .tooltip{
+     visibility: hidden;
+     background-color: black;
+     color: white;
+     padding: 10px;
+     /* it is use for easy moment of a child*/
+     position: absolute;
+     top: 40px;
+    }
+    /* when the user hover the parent only then show the tooltip*/
+    .parent:hover .tooltip{
+      visibility: visible;
+    }
+</style>
+<body>
+     <div class="parent">
+        hover me 
+           <span class="tooltip">Welcome student</span>
+     </div>
+</body>
+</html>

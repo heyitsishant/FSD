@@ -1,0 +1,20 @@
+    
+        body{
+            background-color: black;
+            color: white;
+            text-align: center;
+        }
+        /* grneric styling*/
+        button{
+            background-color: aquamarine;           
+             color: black;
+             /* all 4 side has same 20px */
+           /*  padding: 20px; */
+             /* top right bottom left */
+           /*  padding: 10px 20px 30px 40px; */
+             /* top and bottom right and left*/
+             padding: 20px 30px;
+             margin: 20px;
+             border: 10px solid gold;
+        } 
+        

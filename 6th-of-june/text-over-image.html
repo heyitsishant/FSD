@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>text over image</title>
+    <style>
+        .parent{
+            position: relative;
+        }
+        .img1{
+            width: 700px;
+            height: 700px;
+
+        }
+        /* terget child element inside the parent using the parent class*/
+        .parent h1{
+        position: absolute;
+        top: 40%;
+        left: 10%;
+        color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <img src="https://images.unsplash.com/photo-1780914436125-fd89f762abd7?q=80&w"
+         alt="sunset" class="img1">
+        <h1> the sunset</h1>
+    </div>
+</body>
+    
+</html>

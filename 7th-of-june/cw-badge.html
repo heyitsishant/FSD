@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        .profile{
+            position: relative;
+              width: 200px;
+        }
+        .img{
+            width: 200px;
+            height: 200px;
+        }
+          .badge{
+            position: absolute;
+            top: -10%;
+            right: -10%;
+    
+            width: 40px;
+            height: 40px;
+
+            background-color: red;
+            color: white;
+
+            border-radius: 50px;
+          /*it is used to center the element horizontally and vertically*/
+            display: flex;
+            justify-content: center;
+            align-items: center;
+             z-index: 10;
+          }
+        
+    </style>
+</head>
+<body>
+     <div class="profile">
+        <img src="https://plus.unsplash.com/premium_photo-1751906599818-c14e5afd1518?q" 
+        alt="random" class="img">
+        <div class="badge">9</div>
+     </div>
+</body>
+</html>

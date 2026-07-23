@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>responsive design2</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        .products{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+        .card{
+            border: 1px solid gray;
+            padding: 20px;
+        }
+        img{
+            width: 100%;
+        }
+        /* tablets 2coloums */
+        @media(max-width: 900px){
+            .products{
+            grid-template-columns: repeat(2, 1fr);
+            }
+        }
+           /* mobile 1colums*/
+            @media(max-width: 600px){
+            .products{
+            grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="products">
+        <div class="card">
+            <img src="https://picsum.photos/seed/picsum/536/354">
+            <h3>mountain pic </h3>
+            <p>99$</p>
+        </div>
+         <div class="card">
+            <img src="https://picsum.photos/seed/picsum/536/354">
+            <h3>image</h3>
+            <p>99$</p>
+        </div>
+          <div class="card">
+            <img src="https://picsum.photos/seed/picsum/536/354">
+            <h3>image</h3>
+            <p>99$</p>
+        </div>
+    </div>
+</body>
+</html>

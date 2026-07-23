@@ -1,0 +1,13 @@
+.design{
+    color: red;
+}
+
+.verified{
+    color: green;
+}
+.not-verified{
+    color: blue;
+}
+.black-listed{
+color: red;
+}

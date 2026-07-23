@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .gallery{
+            position: relative;
+            height: 400px;
+        }
+        .gallery img{
+            position: absolute;
+            width: 200px;
+        }
+        .img1{
+            left: 100px;
+            z-index: 1;
+        }
+        .img2{
+           left: 150px;
+           top: 40px;
+           z-index: 2;
+        }
+        .img3{
+            left: 200px;
+            top: 80px;
+            z-index: 3;
+        }
+    </style>
+</head>
+<body>
+    <div class="gallery">
+        <img 
+        class="img1" 
+        src="https://images.unsplash.com/photo-1781376621620-02e8e6b83399?q" alt="random">
+        <img
+         class="img2" 
+        src="https://images.unsplash.com/photo-1781376621620-02e8e6b83399?q" alt="random">
+        <img
+         class="img3" 
+        src="https://images.unsplash.com/photo-1781376621620-02e8e6b83399?q" alt="random">
+    </div>
+</body>
+</html>
