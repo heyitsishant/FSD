@@ -1,0 +1,30 @@
+ let day = 3;
+ /* if (day == 1 ) console.log("Monday");
+ else if (day == 2)console.log("Tuesday");
+ else if (day == 3)console.log("wednesday");
+ else if (day == 4)console.log("thursday");
+ else if (day == 5)console.log("friday");
+ else if (day == 6)console.log("saturday");
+ else console.log("sunday"); */
+
+ switch (day){
+    case 1:
+    console.log("Monday");
+    break;
+    case 2:
+    console.log("tuesday");
+    break;
+    case 3:
+        console.log("Wednesday");
+        break;
+        case 4:
+            console.log("Thursday");
+            break;
+            case 5:
+            console.log("Friday");
+            break;
+            default:
+                console.log("Weekend")
+
+
+ }
